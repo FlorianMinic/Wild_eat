@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+ }
+ 
+ .team  {
+    width: 60%;
+    margin: auto;
+    text-align: start;
+    
+}
+
+section.team img {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+section.members {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.members article img {
+    width: 70%;
+    padding: 1rem;
+}
+
+h3 {
+    padding-top: 1rem;
+}
+
+h4 {
+    padding-bottom: 1rem;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    height: 3px;
+    color: #111;
+    background-color: #111;
+}
+
+section.members article p {
+    padding-bottom: 1rem;
+}
+
+
+.members article {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    border: solid;
+}
+
+.members p {
+    padding: 1rem;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width : 768px) {
+ 
+    .team {
+        display : flex;
+        width: 85%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .team p {
+       margin-left: 2rem;
+    }
+    
+    section.members {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+
+    .members article {
+        grid-column: span 4;
+        border: solid;
+        align-self: stretch;
+    }
+
+
+}
