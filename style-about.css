@@ -1,8 +1,4 @@
- *{
-    margin: 0;
- }
- 
- .team  {
+.team  {
     width: 60%;
     margin: auto;
     text-align: start;
@@ -15,9 +11,14 @@ section.team img {
 }
 
 
-h2 {
-    text-align: center;
-    margin: 1rem;
+section.team h2 {
+    margin: 2rem 0 0 0;
+    font-size: 2rem;
+}
+section.members h2 {
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+    grid-column: span 12;
 }
 
 section.members {
@@ -32,20 +33,23 @@ section.members {
     padding: 1rem;
 }
 
-h3 {
+section.members h3 {
     padding-top: 1rem;
+    font-family: Modak, serif;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: lighter;
 }
 
-h4 {
-    padding-bottom: 1rem;
+section.members h4 {
+    padding:0 0 1rem 0;
+    margin: 0;
 }
 
-hr {
+section article hr {
     width: 70%;
     margin: auto;
-    height: 3px;
     color: #111;
-    background-color: #111;
 }
 
 section.members article p {
@@ -56,28 +60,31 @@ section.members article p {
 .members article {
     grid-column-start: 3;
     grid-column-end: 11;
-    border: solid;
+    border: 1px solid #111;
 }
 
 .members p {
     padding: 1rem;
 }
 
-footer {
-    background-color: grey;
-    text-align: center;
-    margin-top: 1rem;
-}
-
 @media screen and (min-width : 768px) {
  
     .team {
-        display : flex;
+        display : grid;
+        grid-template-columns: repeat(12, 1fr);
         width: 85%;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-
+    section.team h2 {
+        margin: 1rem 0 0 2rem;
+    }
+    .team img {
+        grid-column: span 4;
+    }
+    .team article {
+        grid-column: span 8;
+    }
     .team p {
        margin-left: 2rem;
     }
@@ -85,7 +92,6 @@ footer {
     section.members {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         gap: 1rem;
         text-align: center;
         width: 85%;
@@ -94,7 +100,7 @@ footer {
 
     .members article {
         grid-column: span 4;
-        border: solid;
+        border: 1px solid #111;
         align-self: stretch;
     }
 
