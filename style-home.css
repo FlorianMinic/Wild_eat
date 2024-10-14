@@ -19,7 +19,8 @@ article#color-column {
 
 article h2 {
     background: #F28705;
-    margin-right: .5rem;
+    margin-right: 5rem;
+    padding-left: 1rem;
 }
 
 article p {
