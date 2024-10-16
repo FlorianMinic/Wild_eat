@@ -97,6 +97,8 @@ const restaurants = [
     const cardImg = document.createElement("img");
     cardImg.src = picture;
     cardImg.alt = name;
+    cardImg.style.transition = "transform 0.3s ease";
+
     // cardImg.classList.add("card-img");
     card.appendChild(cardImg);
 
@@ -114,6 +116,18 @@ const restaurants = [
     cardAdress.classList.add("adresse");
     cardAdress.textContent = `${adress}`;
     card.appendChild(cardAdress);
+
+    cardImg.addEventListener('mouseover', function () {
+      cardImg.style.transform = "scale(1.02)";
+      cardImg.style.filter = 'blur(2px)';
+  
+});
+
+  cardImg.addEventListener('mouseleave', function () {
+      cardImg.style.transform = "scale(1)";
+      cardImg.style.filter = 'none';
+      
+  });
 
   }
 

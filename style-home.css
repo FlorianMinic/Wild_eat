@@ -11,8 +11,8 @@ main {
     grid-column-end: 11;
     box-sizing: border-box;
     border: 1px solid #111111;
-    margin:0;
-    }
+    margin:0;}
+
 article#color-column {
     display: none;
 }
@@ -31,6 +31,21 @@ article img {
     border-bottom:1px solid #111111;
     width: 100%;
 }
+
+.image-container button {
+    display: none;
+    background-color: blue;
+    color: beige;
+    border-radius: 0.75rem;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;}
 
 .adresse{
     font-weight:bold;
