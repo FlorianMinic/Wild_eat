@@ -11,6 +11,7 @@ main {
     grid-column-end: 11;
     box-sizing: border-box;
     border: 1px solid #111111;
+
     margin:0;
     }
 
@@ -43,6 +44,7 @@ main {
         height: 100%;
         width: 100%;
       }
+
 
 article#color-column {
     display: none;
