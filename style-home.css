@@ -11,7 +11,42 @@ main {
     grid-column-end: 11;
     box-sizing: border-box;
     border: 1px solid #111111;
+<<<<<<< HEAD
     margin:0;}
+=======
+    margin:0;
+    }
+
+    .articles {
+        perspective: 1000px;
+        position: relative;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .articles.flipped {
+        transform: rotateY(180deg); 
+      }
+
+      .card-front, .card-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden; 
+        
+      }
+
+      .card-front {
+        transform: rotateY(180deg);
+      }
+      
+      .card-back {
+        background-color: #fffef8;
+        transform: rotateY(180deg);
+        height: 100%;
+        width: 100%;
+      }
+>>>>>>> 8ca3a1e4dcb00d0878da57942f65e7c1f8c51744
 
 article#color-column {
     display: none;
@@ -50,7 +85,6 @@ article img {
 .adresse{
     font-weight:bold;
 }
-
 
 @media screen and (min-width: 768px) {
     main {
