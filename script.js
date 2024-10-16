@@ -6,7 +6,7 @@ const restaurants = [
       name: "Mcdonald",
       picture:
         "images/hamburger.jpg",
-      tags: ["tags1", "tags2", "tags3"],
+      tags: ["Fast-Food"],
       adress: "Port Autonome, Place de Latule, Bd Alfred Daney, 33300 Bordeaux",
       horaires : "7h30 - 7h00",
       map: "./images/mcdo.png"
@@ -15,7 +15,7 @@ const restaurants = [
         name: "Papadum indian Food",
         picture:
           "images/indien01.jpg",
-        tags: ["tags2", "tags3", "tags4"],
+        tags: ["Indien"],
         adress: "121 Rue Lucien Faure, 33300 Bordeaux",
         horaires : "11h30 - 14h30 / 18h30 - 22h30",
         map: "./images/papdum.png"
@@ -24,7 +24,7 @@ const restaurants = [
         name: "Awake Restaurant Original et Bio",
         picture:
           "images/salade01.jpg",
-        tags: ["tags3", "tags4", "tags5"],
+        tags: ["Brasserie"],
         adress: "54 Quai Virginie Hériot, 33300 Bordeaux",
         horaires: "11h45 - 14h00 / 18h45-22h00",
         map: "./images/awake.png"
@@ -33,7 +33,7 @@ const restaurants = [
         name: "Delirium café",
         picture:
           "images/bar01.jpg",
-        tags: ["tags4", "tags5", "tags6"],
+        tags: ["Brasserie"],
         adress: "30 Quai Virginie Hériot, 33300 Bordeaux",
         horaires:"16h00 - 02h00",
         map: "./images/delirium.png"
@@ -42,7 +42,7 @@ const restaurants = [
         name: "Au bureau",
         picture:
           "images/brasserie01.jpg",
-        tags: ["tags5", "tags6", "tags1"],
+        tags: ["Brasserie"],
         adress: "12 Quai Virginie Hériot, 33300 Bordeaux",
         horaires:"11h00 - 23h30",
         map: "./images/au-bureau.png"
@@ -51,7 +51,7 @@ const restaurants = [
         name: "Boulangerie B3",
         picture:
           "images/boulangerie01.jpg",
-        tags: ["tags6", "tags1", "tags2"],
+        tags: ["Boulangerie","Fast-Food"],
         adress: "282 Cr Balguerie Stuttenberg, 33300 Bordeaux",
         horaires: "7h00 - 19h30",
         map : "./images/boulangerie-b3.png"
@@ -60,7 +60,7 @@ const restaurants = [
         name: "It-Italian Trattoria",
         picture:
           "images/italien02.jpg",
-        tags: ["tags1", "tags3", "tags5"],
+        tags: ["Italien","Brasserie"],
         adress: "40 Quai Virginie Hériot Bassins à Flot N°2, 33300 Bordeaux",
         horaires:"12h00 - 14h30 / 19h00 - 22h15",
         map: "./images/it-trattioria.png"
@@ -69,7 +69,7 @@ const restaurants = [
         name: "La Côte et l'Arête Bordeaux",
         picture:
           "images/italien01.jpg",
-        tags: ["tags2", "tags4", "tags6"],
+        tags: ["Brasserie"],
         adress: "19 Quai Virginie Hériot, 33300 Bordeaux",
         horaires:"12h00 - 14h15 / 19h00 - 22h15",
         map: "./images/la-cote.png"
@@ -78,7 +78,7 @@ const restaurants = [
         name: "On Air café",
         picture:
           "images/boulangerie02.jpg",
-        tags: ["tags2", "tags5", "tags1"],
+        tags: ["Brasserie","Fast-Food"],
         adress: "171 Rue Lucien Faure, 33300 Bordeaux",
         horaires:"7h45 - 14h00 / 18h00 - 21h00",
         map: "./images/on-air.png"
@@ -87,7 +87,7 @@ const restaurants = [
         name: "Eat Salad",
         picture:
           "images/salade02.jpg",
-        tags: ["tags3", "tags2", "tags4"],
+        tags: ["Brasserie", "Fast-Food"],
         adress: "51 Rue Lucien Faure, 33300 Bordeaux",
         horaires:"11h30 - 15h00 / 18h30 - 22h00",
         map: "./images/eat-salad.png"
@@ -96,7 +96,7 @@ const restaurants = [
         name: "My Beers",
         picture:
           "images/brasserie02.jpg",
-        tags: ["tags6", "tags3", "tags1"],
+        tags: [ "Brasserie"],
         adress: "63 Quai Virginie Hériot, 33300 Bordeaux",
         horaires:"11h00 - 22h00",
         map: "./images/my-beers.png"
@@ -106,7 +106,7 @@ const restaurants = [
         name: "SuAndSushi",
         picture:
           "images/sushi01.jpg",
-        tags: ["tags1", "tags3", "tags5"],
+        tags: ["Sushi"],
         adress: "59 Rue Lucien Faure Building, 33300 Bordeaux",
         horaires: "11h00 - 14h00  /  18h30 - 22h30",
         map: "./images/su-and-sushi.png"
